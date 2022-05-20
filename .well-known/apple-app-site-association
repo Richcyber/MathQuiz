@@ -1,0 +1,18 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": {
+            "4C2DYTYF74.com.richcyber.MathQuizApp": {
+                "paths": [
+                    "*"
+                ],
+                "components": [
+                    {
+                        "/": "/",
+                        "?": { "id": "?*", "type": "quiz" }
+                    }
+                ]
+            }
+        }
+    }
+}
