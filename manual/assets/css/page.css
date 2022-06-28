@@ -1,0 +1,76 @@
+h1, h2, h3, h4, h5 {
+  font-weight: 500;
+  padding-top: 20px;
+}
+
+.mdg-nav {
+  font-size: .9rem;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+  font-size: 3.2rem;
+  margin-top: -45px;
+}
+
+.jumbotron p {
+  padding: 5px 0 0 0;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+@media(max-width: 576px) {
+  .jumbotron p {
+    padding: 5px 0 0 0;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  .jumbotron h1 {
+    font-size: 1.5rem;
+    margin-top: 0px;
+  }
+}
+
+.jumbotron {
+  background: #03A7DD;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  border-radius: 0;
+  height: 195px;
+}
+
+.site-footer {
+  padding-top: 35px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  color: black;
+}
+
+/* css for the sidebar */
+/* https://afeld.github.io/bootstrap-toc/ */
+
+nav[data-toggle='toc'] {
+  padding-top: 28px;
+}
+
+nav[data-toggle='toc'] .nav > li > a:hover,
+nav[data-toggle='toc'] .nav-link.active,
+nav[data-toggle='toc'] .nav-link.active:focus,
+nav[data-toggle='toc'] .nav-link.active:hover,
+nav[data-toggle='toc'] .nav > li > a:focus {
+  color: #03A7DD;
+  border-left: 1px solid #03A7DD;
+}
+nav[data-toggle='toc'] .nav > .active > a,
+nav[data-toggle='toc'] .nav > .active:hover > a,
+nav[data-toggle='toc'] .nav > .active:focus > a {
+  color: #03A7DD;
+  border-left: 2px solid #03A7DD;
+}
+
+/* small screens */
+@media (max-width: 768px) {
+  /* override the Affix plugin so that the navigation isn't sticky */
+}
